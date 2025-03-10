@@ -1,0 +1,43 @@
+{
+	"compilerOptions": {
+		// required
+		"allowSyntheticDefaultImports": true,
+		"downlevelIteration": true,
+		"jsx": "react",
+		"jsxFactory": "React.createElement",
+		"jsxFragmentFactory": "React.Fragment",
+		"module": "commonjs",
+		"moduleResolution": "Node",
+		"noLib": true,
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleDetection": "force",
+		"strict": true,
+		"target": "ESNext",
+		"typeRoots": [
+			"node_modules/@rbxts",
+			"node_modules/@flamework"
+		],
+		// configurable
+		"rootDir": "Src",
+		"outDir": "out",
+		"baseUrl": "Src",
+		"incremental": true,
+		"tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
+		"plugins": [
+			{
+				"transform": "rbxts-transformer-flamework"
+			},
+			{
+				"transform": "rbxts-transform-debug",
+				"enabled": true,
+				"verbose": false,
+				"version": 2,
+				"environmentRequires": {
+					//"NODE_ENV": "development"
+				},
+			},
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"version": 1,
+	"flameworkVersion": "1.2.3",
+	"identifiers": {
+		"roblox-ts-template:out/Client/Controllers/Hello@Hello": "Client/Controllers/Hello@Hello",
+		"roblox-ts-template:out/Server/Services/Hello@Hello": "Server/Services/Hello@Hello",
+		"roblox-ts-template:out/Shared/Network@GlobalEvents": "Shared/Network@GlobalEvents",
+		"roblox-ts-template:out/Shared/Network@GlobalFunctions": "Shared/Network@GlobalFunctions"
+	},
+	"metadata": {}
+}
